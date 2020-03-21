@@ -3,7 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-
+.DS_Store
 ### STS ###
 .apt_generated
 .classpath
@@ -29,3 +29,52 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+src/main/java/frontend
+src/main/java/frontend/dist
+src/main/java/frontend/tmp
+src/main/java/frontend/out-tsc
+# Only exists if Bazel was run
+src/main/java/frontend/bazel-out
+
+# dependencies
+src/main/java/frontend/node_modules
+
+# profiling files
+src/main/java/frontendchrome-profiler-events*.json
+src/main/java/frontendspeed-measure-plugin*.json
+
+# IDEs and editors
+src/main/java/frontend/.idea
+src/main/java/frontend/.project
+src/main/java/frontend/.classpath
+src/main/java/frontend/.c9/
+src/main/java/frontend/*.launch
+src/main/java/frontend/.settings/
+/*.sublime-workspace
+
+# IDE - VSCode
+src/main/java/frontend/.vscode/*
+src/main/java/frontend/!.vscode/settings.json
+src/main/java/frontend/!.vscode/tasks.json
+src/main/java/frontend/!.vscode/launch.json
+src/main/java/frontend/!.vscode/extensions.json
+src/main/java/frontend/.history/*
+
+# misc
+src/main/java/frontend/.sass-cache
+src/main/java/frontend/connect.lock
+src/main/java/frontend/coverage
+src/main/java/frontend/libpeerconnection.log
+src/main/java/frontend/npm-debug.log
+src/main/java/frontend/yarn-error.log
+src/main/java/frontend/testem.log
+src/main/java/frontend/typings
+
+# System Files
+src/main/java/frontend/.DS_Store
+src/main/java/frontend/Thumbs.db
